@@ -1,9 +1,9 @@
 let map;
 let infowindow;
 
- function initMap()
- {
- // Creamos un mapa con las coordenadas actuales
+function initMap()
+{
+// Creamos un mapa con las coordenadas actuales
    navigator.geolocation.getCurrentPosition(function(pos) {
 
    lat = pos.coords.latitude;
